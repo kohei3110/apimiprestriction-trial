@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import axios, { AxiosResponse } from "axios";
+import axios from "axios";
 
 function App() {
   const instance = axios.create({
